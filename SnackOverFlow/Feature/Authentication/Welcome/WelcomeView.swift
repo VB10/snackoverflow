@@ -7,27 +7,43 @@
 
 import SwiftUI
 
-private enum StringItems: String {
-    case facebookLogin = "Sign In with Facebook"
-}
-
 struct WelcomeView: View {
     var body: some View {
         ZStack {
             Image(Images.juice.rawValue).resizable()
             Color.black.opacity(0.3)
-            VStack {
-                Image(Icons.appLogo.rawValue)
-                FacebokButton(onTap: {}).padding(Edge.Set.top, 40)
-            }.padding(.paddingAll)
-            
+            BodyView()
+
         }
     }
 }
 
 struct WelcomeView_Previews: PreviewProvider {
     static var previews: some View {
-        WelcomeView().statusBar(hidden: true)
+        WelcomeView().ignoresSafeArea(.all)
     }
 }
 
+
+private struct BodyView: View {
+    var body: some View {
+        GeometryReader { geometry in
+            VStack {
+                Spacer()
+                Image(Icons.appLogo.rawValue)
+                Spacer()
+                FacebokButton(onTap: { }).padding(Edge.Set.top, PagePadding.All.normal.rawValue)
+                GoogleButton { }
+                AppleButton(onTap: { })
+                Divider()
+                    .background(Color.peach)
+                    .frame(
+                    width: geometry.dw(width: 0.6),
+                    height: DividerViewSize.normal).padding(.all, PagePadding.All.normal.rawValue)
+                EmailButton { }
+                Spacer().frame(height: geometry.dh(height: 0.1))
+            }.padding(.paddingAll)
+        }
+
+    }
+}

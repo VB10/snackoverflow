@@ -19,6 +19,17 @@
 		3503159E28D2A133002626A4 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503159D28D2A133002626A4 /* Icons.swift */; };
 		350315A228D2A50E002626A4 /* FacebookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350315A128D2A50E002626A4 /* FacebookButton.swift */; };
 		350315A428D2A5D2002626A4 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350315A328D2A5D2002626A4 /* EdgeInsets.swift */; };
+		35D9DCC928E3C59700A4482D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35D9DCCB28E3C59700A4482D /* Localizable.strings */; };
+		35D9DCCD28E3C61B00A4482D /* LocaleKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9DCCC28E3C61B00A4482D /* LocaleKeys.swift */; };
+		35D9DCCF28E3C71C00A4482D /* GoogleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9DCCE28E3C71C00A4482D /* GoogleButton.swift */; };
+		35D9DCD128E3C7B900A4482D /* Custom+EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9DCD028E3C7B900A4482D /* Custom+EdgeInsets.swift */; };
+		35D9DCD328E3C7EF00A4482D /* PagePaddings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9DCD228E3C7EE00A4482D /* PagePaddings.swift */; };
+		35D9DCD528E3C8BE00A4482D /* Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9DCD428E3C8BE00A4482D /* Radius.swift */; };
+		35D9DCD728E3C95900A4482D /* AppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9DCD628E3C95900A4482D /* AppleButton.swift */; };
+		35D9DCDA28E3CA8C00A4482D /* ViewSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9DCD928E3CA8C00A4482D /* ViewSize.swift */; };
+		35D9DCDC28E3CACB00A4482D /* EmailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9DCDB28E3CACB00A4482D /* EmailButton.swift */; };
+		35D9DCDF28E3CBB100A4482D /* FontSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9DCDE28E3CBB100A4482D /* FontSizes.swift */; };
+		35D9DCE128E3CD7E00A4482D /* DynamicSize+GeometryProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9DCE028E3CD7E00A4482D /* DynamicSize+GeometryProxy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +46,17 @@
 		3503159D28D2A133002626A4 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		350315A128D2A50E002626A4 /* FacebookButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookButton.swift; sourceTree = "<group>"; };
 		350315A328D2A5D2002626A4 /* EdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		35D9DCCA28E3C59700A4482D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		35D9DCCC28E3C61B00A4482D /* LocaleKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleKeys.swift; sourceTree = "<group>"; };
+		35D9DCCE28E3C71C00A4482D /* GoogleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleButton.swift; sourceTree = "<group>"; };
+		35D9DCD028E3C7B900A4482D /* Custom+EdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom+EdgeInsets.swift"; sourceTree = "<group>"; };
+		35D9DCD228E3C7EE00A4482D /* PagePaddings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagePaddings.swift; sourceTree = "<group>"; };
+		35D9DCD428E3C8BE00A4482D /* Radius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radius.swift; sourceTree = "<group>"; };
+		35D9DCD628E3C95900A4482D /* AppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleButton.swift; sourceTree = "<group>"; };
+		35D9DCD928E3CA8C00A4482D /* ViewSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSize.swift; sourceTree = "<group>"; };
+		35D9DCDB28E3CACB00A4482D /* EmailButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailButton.swift; sourceTree = "<group>"; };
+		35D9DCDE28E3CBB100A4482D /* FontSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizes.swift; sourceTree = "<group>"; };
+		35D9DCE028E3CD7E00A4482D /* DynamicSize+GeometryProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DynamicSize+GeometryProxy.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +111,8 @@
 		3503158928D29CE9002626A4 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				35D9DCDD28E3CBA300A4482D /* Fonts */,
+				35D9DCC628E3C58400A4482D /* Locale */,
 				3503159928D2A0B2002626A4 /* Extension */,
 				3503159628D29ED4002626A4 /* Enums */,
 			);
@@ -148,8 +172,11 @@
 		3503159628D29ED4002626A4 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				35D9DCD828E3CA7E00A4482D /* Size */,
 				3503159728D29EEB002626A4 /* Images.swift */,
 				3503159D28D2A133002626A4 /* Icons.swift */,
+				35D9DCD228E3C7EE00A4482D /* PagePaddings.swift */,
+				35D9DCD428E3C8BE00A4482D /* Radius.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -159,6 +186,8 @@
 			children = (
 				3503159B28D2A0D3002626A4 /* Colors.swift */,
 				350315A328D2A5D2002626A4 /* EdgeInsets.swift */,
+				35D9DCD028E3C7B900A4482D /* Custom+EdgeInsets.swift */,
+				35D9DCE028E3CD7E00A4482D /* DynamicSize+GeometryProxy.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -175,8 +204,36 @@
 			isa = PBXGroup;
 			children = (
 				350315A128D2A50E002626A4 /* FacebookButton.swift */,
+				35D9DCCE28E3C71C00A4482D /* GoogleButton.swift */,
+				35D9DCD628E3C95900A4482D /* AppleButton.swift */,
+				35D9DCDB28E3CACB00A4482D /* EmailButton.swift */,
 			);
 			path = Button;
+			sourceTree = "<group>";
+		};
+		35D9DCC628E3C58400A4482D /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				35D9DCCB28E3C59700A4482D /* Localizable.strings */,
+				35D9DCCC28E3C61B00A4482D /* LocaleKeys.swift */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		35D9DCD828E3CA7E00A4482D /* Size */ = {
+			isa = PBXGroup;
+			children = (
+				35D9DCD928E3CA8C00A4482D /* ViewSize.swift */,
+			);
+			path = Size;
+			sourceTree = "<group>";
+		};
+		35D9DCDD28E3CBA300A4482D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				35D9DCDE28E3CBB100A4482D /* FontSizes.swift */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D9DCC928E3C59700A4482D /* Localizable.strings in Resources */,
 				3503159228D29DB1002626A4 /* Colors.xcassets in Resources */,
 				3503159428D29DDC002626A4 /* Images.xcassets in Resources */,
 				3503158328D29C3A002626A4 /* Preview Assets.xcassets in Resources */,
@@ -251,18 +309,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D9DCDC28E3CACB00A4482D /* EmailButton.swift in Sources */,
+				35D9DCCD28E3C61B00A4482D /* LocaleKeys.swift in Sources */,
 				3503157E28D29C39002626A4 /* ContentView.swift in Sources */,
 				3503159C28D2A0D3002626A4 /* Colors.swift in Sources */,
+				35D9DCD128E3C7B900A4482D /* Custom+EdgeInsets.swift in Sources */,
 				3503159E28D2A133002626A4 /* Icons.swift in Sources */,
+				35D9DCCF28E3C71C00A4482D /* GoogleButton.swift in Sources */,
+				35D9DCD728E3C95900A4482D /* AppleButton.swift in Sources */,
 				350315A228D2A50E002626A4 /* FacebookButton.swift in Sources */,
+				35D9DCD528E3C8BE00A4482D /* Radius.swift in Sources */,
 				3503159828D29EEB002626A4 /* Images.swift in Sources */,
+				35D9DCDA28E3CA8C00A4482D /* ViewSize.swift in Sources */,
+				35D9DCDF28E3CBB100A4482D /* FontSizes.swift in Sources */,
+				35D9DCD328E3C7EF00A4482D /* PagePaddings.swift in Sources */,
 				3503159028D29D7C002626A4 /* WelcomeView.swift in Sources */,
 				350315A428D2A5D2002626A4 /* EdgeInsets.swift in Sources */,
 				3503157C28D29C39002626A4 /* SnackOverFlowApp.swift in Sources */,
+				35D9DCE128E3CD7E00A4482D /* DynamicSize+GeometryProxy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35D9DCCB28E3C59700A4482D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35D9DCCA28E3C59700A4482D /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3503158428D29C3A002626A4 /* Debug */ = {
