@@ -5,12 +5,21 @@
   Created by Veli Bacik on 28.09.2022.
   
 */
-"signInFacebook"="Sign In with Facebook";
-"signInGoogle"="Sign In with Google";
-"signInApple"="Sign In with Apple";
-"signupWithEmail"="Sign Up with Email";
+"signInFacebook" = "Sign In with Facebook";
+"signInGoogle" = "Sign In with Google";
+"signInApple" = "Sign In with Apple";
+"signupWithEmail" = "Sign Up with Email";
+
+// Login
+"welcomeBack" = "Welcome Back";
+"createAccount" = "Create account";
+"termsAndCondition"="By clicking \"Create account\", I agree to SnackOverflow’s [TOS](www.com.vb) and [Privacy Policy](www.com.vb2)";
 
 //Buttton
+"getStarted" = "Get started";
 
-"getStarted"="Get started";
+//General
+"emailHint" = "Write your email";
+"passwordHint" = "Write your password";
+
 

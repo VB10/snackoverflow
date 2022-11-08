@@ -19,6 +19,17 @@ struct LocaleKeys {
     enum Buttons: String {
         case getStarted = "getStarted"
     }
+    
+    enum General: String {
+        case emailHint = "getStarted"
+        case passwordHint = "passwordHint"
+    }
+    
+    enum Login: String {
+        case welcomeBack = "welcomeBack"
+        case createAccount = "createAccount"
+        case terms = "termsAndCondition"
+    }
 }
 
 extension String {
