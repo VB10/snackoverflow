@@ -19,6 +19,8 @@
 		3503159E28D2A133002626A4 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503159D28D2A133002626A4 /* Icons.swift */; };
 		350315A228D2A50E002626A4 /* FacebookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350315A128D2A50E002626A4 /* FacebookButton.swift */; };
 		350315A428D2A5D2002626A4 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350315A328D2A5D2002626A4 /* EdgeInsets.swift */; };
+		3526FE12291B162400028386 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3526FE11291B162400028386 /* LoginView.swift */; };
+		3526FE15291B1A8100028386 /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3526FE14291B1A8100028386 /* TextFieldModifier.swift */; };
 		35B9E52628FE3157004230B9 /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B9E52528FE3157004230B9 /* OnBoardView.swift */; };
 		35B9E52828FE3359004230B9 /* NormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B9E52728FE3359004230B9 /* NormalButton.swift */; };
 		35B9E52A28FE3788004230B9 /* OnBoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B9E52928FE3788004230B9 /* OnBoardModel.swift */; };
@@ -50,6 +52,8 @@
 		3503159D28D2A133002626A4 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		350315A128D2A50E002626A4 /* FacebookButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookButton.swift; sourceTree = "<group>"; };
 		350315A328D2A5D2002626A4 /* EdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		3526FE11291B162400028386 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3526FE14291B1A8100028386 /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
 		35B9E52528FE3157004230B9 /* OnBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardView.swift; sourceTree = "<group>"; };
 		35B9E52728FE3359004230B9 /* NormalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalButton.swift; sourceTree = "<group>"; };
 		35B9E52928FE3788004230B9 /* OnBoardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardModel.swift; sourceTree = "<group>"; };
@@ -119,6 +123,7 @@
 		3503158928D29CE9002626A4 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				3526FE13291B1A5E00028386 /* ViewModifers */,
 				35D9DCDD28E3CBA300A4482D /* Fonts */,
 				35D9DCC628E3C58400A4482D /* Locale */,
 				3503159928D2A0B2002626A4 /* Extension */,
@@ -154,6 +159,7 @@
 		3503158D28D29D2C002626A4 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				3526FE10291B161600028386 /* Login */,
 				35B9E52428FE314B004230B9 /* OnBoard */,
 				3503158E28D29D4E002626A4 /* Welcome */,
 			);
@@ -219,6 +225,22 @@
 				35B9E52728FE3359004230B9 /* NormalButton.swift */,
 			);
 			path = Button;
+			sourceTree = "<group>";
+		};
+		3526FE10291B161600028386 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3526FE11291B162400028386 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3526FE13291B1A5E00028386 /* ViewModifers */ = {
+			isa = PBXGroup;
+			children = (
+				3526FE14291B1A8100028386 /* TextFieldModifier.swift */,
+			);
+			path = ViewModifers;
 			sourceTree = "<group>";
 		};
 		35B9E52428FE314B004230B9 /* OnBoard */ = {
@@ -333,6 +355,7 @@
 				35D9DCCD28E3C61B00A4482D /* LocaleKeys.swift in Sources */,
 				3503157E28D29C39002626A4 /* ContentView.swift in Sources */,
 				3503159C28D2A0D3002626A4 /* Colors.swift in Sources */,
+				3526FE12291B162400028386 /* LoginView.swift in Sources */,
 				35D9DCD128E3C7B900A4482D /* Custom+EdgeInsets.swift in Sources */,
 				3503159E28D2A133002626A4 /* Icons.swift in Sources */,
 				35D9DCCF28E3C71C00A4482D /* GoogleButton.swift in Sources */,
@@ -346,6 +369,7 @@
 				35B9E52828FE3359004230B9 /* NormalButton.swift in Sources */,
 				35B9E52628FE3157004230B9 /* OnBoardView.swift in Sources */,
 				3503159028D29D7C002626A4 /* WelcomeView.swift in Sources */,
+				3526FE15291B1A8100028386 /* TextFieldModifier.swift in Sources */,
 				350315A428D2A5D2002626A4 /* EdgeInsets.swift in Sources */,
 				35B9E52A28FE3788004230B9 /* OnBoardModel.swift in Sources */,
 				3503157C28D29C39002626A4 /* SnackOverFlowApp.swift in Sources */,
