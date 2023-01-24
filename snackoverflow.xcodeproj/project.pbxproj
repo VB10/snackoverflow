@@ -36,7 +36,21 @@
 		35D9DCDC28E3CACB00A4482D /* EmailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9DCDB28E3CACB00A4482D /* EmailButton.swift */; };
 		35D9DCDF28E3CBB100A4482D /* FontSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9DCDE28E3CBB100A4482D /* FontSizes.swift */; };
 		35D9DCE128E3CD7E00A4482D /* DynamicSize+GeometryProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9DCE028E3CD7E00A4482D /* DynamicSize+GeometryProxy.swift */; };
+		54A2A82E297F66EB007EF227 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2A82D297F66EB007EF227 /* NetworkManager.swift */; };
+		54A2A831297F6AC5007EF227 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2A830297F6AC5007EF227 /* UserResponse.swift */; };
+		54A2A834297F6CD9007EF227 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 54A2A833297F6CD9007EF227 /* Alamofire */; };
+		54A2A83C297F7010007EF227 /* Snack_Over_FlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2A83B297F7010007EF227 /* Snack_Over_FlowTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54A2A83D297F7010007EF227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3503157028D29C38002626A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3503157728D29C39002626A4;
+			remoteInfo = snackoverflow;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3503157828D29C39002626A4 /* Snack Over Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snack Over Flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,10 +83,22 @@
 		35D9DCDB28E3CACB00A4482D /* EmailButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailButton.swift; sourceTree = "<group>"; };
 		35D9DCDE28E3CBB100A4482D /* FontSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizes.swift; sourceTree = "<group>"; };
 		35D9DCE028E3CD7E00A4482D /* DynamicSize+GeometryProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DynamicSize+GeometryProxy.swift"; sourceTree = "<group>"; };
+		54A2A82D297F66EB007EF227 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		54A2A830297F6AC5007EF227 /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
+		54A2A839297F7010007EF227 /* Snack Over FlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snack Over FlowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A2A83B297F7010007EF227 /* Snack_Over_FlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snack_Over_FlowTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3503157528D29C39002626A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A2A834297F6CD9007EF227 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A2A836297F7010007EF227 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				3503157A28D29C39002626A4 /* SnackOverFlow */,
+				54A2A83A297F7010007EF227 /* Snack Over FlowTests */,
 				3503157928D29C39002626A4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				3503157828D29C39002626A4 /* Snack Over Flow.app */,
+				54A2A839297F7010007EF227 /* Snack Over FlowTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +129,7 @@
 		3503157A28D29C39002626A4 /* SnackOverFlow */ = {
 			isa = PBXGroup;
 			children = (
+				54A2A82B297F66D2007EF227 /* Core */,
 				3503158C28D29D22002626A4 /* Product */,
 				3503158B28D29D08002626A4 /* Feature */,
 				3503158A28D29CFE002626A4 /* Resources */,
@@ -143,6 +172,7 @@
 		3503158B28D29D08002626A4 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				54A2A82F297F6ABB007EF227 /* Model */,
 				3503158D28D29D2C002626A4 /* Authentication */,
 			);
 			path = Feature;
@@ -278,6 +308,38 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		54A2A82B297F66D2007EF227 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				54A2A82C297F66D9007EF227 /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		54A2A82C297F66D9007EF227 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				54A2A82D297F66EB007EF227 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		54A2A82F297F6ABB007EF227 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54A2A830297F6AC5007EF227 /* UserResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54A2A83A297F7010007EF227 /* Snack Over FlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				54A2A83B297F7010007EF227 /* Snack_Over_FlowTests.swift */,
+			);
+			path = "Snack Over FlowTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -294,9 +356,30 @@
 			dependencies = (
 			);
 			name = snackoverflow;
+			packageProductDependencies = (
+				54A2A833297F6CD9007EF227 /* Alamofire */,
+			);
 			productName = snackoverflow;
 			productReference = 3503157828D29C39002626A4 /* Snack Over Flow.app */;
 			productType = "com.apple.product-type.application";
+		};
+		54A2A838297F7010007EF227 /* Snack Over FlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A2A83F297F7010007EF227 /* Build configuration list for PBXNativeTarget "Snack Over FlowTests" */;
+			buildPhases = (
+				54A2A835297F7010007EF227 /* Sources */,
+				54A2A836297F7010007EF227 /* Frameworks */,
+				54A2A837297F7010007EF227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54A2A83E297F7010007EF227 /* PBXTargetDependency */,
+			);
+			name = "Snack Over FlowTests";
+			productName = "Snack Over FlowTests";
+			productReference = 54A2A839297F7010007EF227 /* Snack Over FlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -305,11 +388,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
+				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					3503157728D29C39002626A4 = {
 						CreatedOnToolsVersion = 13.4;
+					};
+					54A2A838297F7010007EF227 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3503157728D29C39002626A4;
 					};
 				};
 			};
@@ -322,11 +409,15 @@
 				Base,
 			);
 			mainGroup = 3503156F28D29C38002626A4;
+			packageReferences = (
+				54A2A832297F6CD9007EF227 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 3503157928D29C39002626A4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3503157728D29C39002626A4 /* snackoverflow */,
+				54A2A838297F7010007EF227 /* Snack Over FlowTests */,
 			);
 		};
 /* End PBXProject section */
@@ -344,6 +435,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		54A2A837297F7010007EF227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -352,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D9DCDC28E3CACB00A4482D /* EmailButton.swift in Sources */,
+				54A2A831297F6AC5007EF227 /* UserResponse.swift in Sources */,
 				35D9DCCD28E3C61B00A4482D /* LocaleKeys.swift in Sources */,
 				3503157E28D29C39002626A4 /* ContentView.swift in Sources */,
 				3503159C28D2A0D3002626A4 /* Colors.swift in Sources */,
@@ -373,12 +472,29 @@
 				350315A428D2A5D2002626A4 /* EdgeInsets.swift in Sources */,
 				35B9E52A28FE3788004230B9 /* OnBoardModel.swift in Sources */,
 				3503157C28D29C39002626A4 /* SnackOverFlowApp.swift in Sources */,
+				54A2A82E297F66EB007EF227 /* NetworkManager.swift in Sources */,
 				35D9DCE128E3CD7E00A4482D /* DynamicSize+GeometryProxy.swift in Sources */,
 				35B9E52C28FE3981004230B9 /* ViewHeight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		54A2A835297F7010007EF227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A2A83C297F7010007EF227 /* Snack_Over_FlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54A2A83E297F7010007EF227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3503157728D29C39002626A4 /* snackoverflow */;
+			targetProxy = 54A2A83D297F7010007EF227 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		35D9DCCB28E3C59700A4482D /* Localizable.strings */ = {
@@ -562,6 +678,44 @@
 			};
 			name = Release;
 		};
+		54A2A840297F7010007EF227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Snack-Over-FlowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snack Over Flow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snack Over Flow";
+			};
+			name = Debug;
+		};
+		54A2A841297F7010007EF227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Snack-Over-FlowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snack Over Flow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snack Over Flow";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -583,7 +737,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		54A2A83F297F7010007EF227 /* Build configuration list for PBXNativeTarget "Snack Over FlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A2A840297F7010007EF227 /* Debug */,
+				54A2A841297F7010007EF227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		54A2A832297F6CD9007EF227 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		54A2A833297F6CD9007EF227 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 54A2A832297F6CD9007EF227 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3503157028D29C38002626A4 /* Project object */;
 }
