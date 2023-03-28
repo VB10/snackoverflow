@@ -8,27 +8,34 @@
 import SwiftUI
 
 struct LoginView: View {
+    @ObservedObject private var viewModel = LoginViewModel()
+
     var body: some View {
         VStack {
             Spacer()
+            Text(viewModel.token)
             ImageItems.Authentication.login.rawValue.image()
             Text(LocaleKeys.Login.welcomeBack.rawValue.locale())
                 .font(.system(size: FontSizes.title1, weight: .semibold))
                 .foregroundColor(.teflon)
-            HTextIconField(hint: LocaleKeys.General.emailHint.rawValue.locale(), iconName: IconItems.mail)
-            HTextSecureIconField(hint: LocaleKeys.General.passwordHint.rawValue.locale(), iconName: IconItems.lock)
+            HTextIconField(hint: LocaleKeys.General.emailHint.rawValue.locale(), iconName: IconItems.mail,
+                           text: $viewModel.emailValue)
+            HTextSecureIconField(hint: LocaleKeys.General.passwordHint.rawValue.locale(), iconName: IconItems.lock,
+                                 text: $viewModel.passwordValue)
                 .padding(.top, PagePadding.All.normal.rawValue)
 
             Divider()
             NormalButton(onTap: {
-
+                Task{
+                    await viewModel.onLoginUser()
+                }
             }, title: LocaleKeys.Login.createAccount.rawValue).padding(.top, PagePadding.All.normal.rawValue)
 
             Text(LocaleKeys.Login.terms.rawValue.locale())
                 .environment(\.openURL, OpenURLAction(handler: { url in
-                print(url)
-                return .discarded
-            })).padding(.top, PagePadding.All.normal.rawValue)
+                    print(url)
+                    return .discarded
+                })).padding(.top, PagePadding.All.normal.rawValue)
                 .font(.system(size: FontSizes.caption1, weight: .regular))
                 .foregroundColor(.gandalf)
                 .tint(.flowerBlue)
@@ -43,27 +50,27 @@ struct LoginView_Previews: PreviewProvider {
     }
 }
 
-
 private struct HTextIconField: View {
-
     let hint: LocalizedStringKey
     let iconName: String
+    var text: Binding<String>
     var body: some View {
         HStack {
             iconName.image()
-            TextField(hint, text: .constant(""))
+            TextField(hint, text: text)
         }.modifier(TextFieldModifier())
     }
 }
 
 private struct HTextSecureIconField: View {
-
     let hint: LocalizedStringKey
     let iconName: String
+    var text: Binding<String>
+
     var body: some View {
         HStack {
             iconName.image()
-            SecureField(hint, text: .constant(""))
+            SecureField(hint, text: text)
         }.modifier(TextFieldModifier())
     }
 }

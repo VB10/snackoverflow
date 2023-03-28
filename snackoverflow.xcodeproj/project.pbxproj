@@ -36,6 +36,8 @@
 		35D9DCDC28E3CACB00A4482D /* EmailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9DCDB28E3CACB00A4482D /* EmailButton.swift */; };
 		35D9DCDF28E3CBB100A4482D /* FontSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9DCDE28E3CBB100A4482D /* FontSizes.swift */; };
 		35D9DCE128E3CD7E00A4482D /* DynamicSize+GeometryProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9DCE028E3CD7E00A4482D /* DynamicSize+GeometryProxy.swift */; };
+		54A22CB129D26D41001BEAEC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A22CB029D26D41001BEAEC /* LoginViewModel.swift */; };
+		54A22CB329D26EB5001BEAEC /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A22CB229D26EB5001BEAEC /* LoginModel.swift */; };
 		54A2A82E297F66EB007EF227 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2A82D297F66EB007EF227 /* NetworkManager.swift */; };
 		54A2A831297F6AC5007EF227 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2A830297F6AC5007EF227 /* UserResponse.swift */; };
 		54A2A834297F6CD9007EF227 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 54A2A833297F6CD9007EF227 /* Alamofire */; };
@@ -83,6 +85,8 @@
 		35D9DCDB28E3CACB00A4482D /* EmailButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailButton.swift; sourceTree = "<group>"; };
 		35D9DCDE28E3CBB100A4482D /* FontSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizes.swift; sourceTree = "<group>"; };
 		35D9DCE028E3CD7E00A4482D /* DynamicSize+GeometryProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DynamicSize+GeometryProxy.swift"; sourceTree = "<group>"; };
+		54A22CB029D26D41001BEAEC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		54A22CB229D26EB5001BEAEC /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		54A2A82D297F66EB007EF227 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		54A2A830297F6AC5007EF227 /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
 		54A2A839297F7010007EF227 /* Snack Over FlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snack Over FlowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -261,6 +265,8 @@
 			isa = PBXGroup;
 			children = (
 				3526FE11291B162400028386 /* LoginView.swift */,
+				54A22CB029D26D41001BEAEC /* LoginViewModel.swift */,
+				54A22CB229D26EB5001BEAEC /* LoginModel.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -450,6 +456,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D9DCDC28E3CACB00A4482D /* EmailButton.swift in Sources */,
+				54A22CB329D26EB5001BEAEC /* LoginModel.swift in Sources */,
 				54A2A831297F6AC5007EF227 /* UserResponse.swift in Sources */,
 				35D9DCCD28E3C61B00A4482D /* LocaleKeys.swift in Sources */,
 				3503157E28D29C39002626A4 /* ContentView.swift in Sources */,
@@ -457,6 +464,7 @@
 				3526FE12291B162400028386 /* LoginView.swift in Sources */,
 				35D9DCD128E3C7B900A4482D /* Custom+EdgeInsets.swift in Sources */,
 				3503159E28D2A133002626A4 /* Icons.swift in Sources */,
+				54A22CB129D26D41001BEAEC /* LoginViewModel.swift in Sources */,
 				35D9DCCF28E3C71C00A4482D /* GoogleButton.swift in Sources */,
 				35D9DCD728E3C95900A4482D /* AppleButton.swift in Sources */,
 				350315A228D2A50E002626A4 /* FacebookButton.swift in Sources */,
