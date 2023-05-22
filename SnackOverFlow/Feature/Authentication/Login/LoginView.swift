@@ -11,36 +11,43 @@ struct LoginView: View {
     @ObservedObject private var viewModel = LoginViewModel()
 
     var body: some View {
-        VStack {
-            Spacer()
-            Text(viewModel.token)
-            ImageItems.Authentication.login.rawValue.image()
-            Text(LocaleKeys.Login.welcomeBack.rawValue.locale())
-                .font(.system(size: FontSizes.title1, weight: .semibold))
-                .foregroundColor(.teflon)
-            HTextIconField(hint: LocaleKeys.General.emailHint.rawValue.locale(), iconName: IconItems.mail,
-                           text: $viewModel.emailValue)
-            HTextSecureIconField(hint: LocaleKeys.General.passwordHint.rawValue.locale(), iconName: IconItems.lock,
-                                 text: $viewModel.passwordValue)
-                .padding(.top, PagePadding.All.normal.rawValue)
+        NavigationView {
+            VStack {
+                Spacer()
+                Text(viewModel.token)
+                ImageItems.Authentication.login.rawValue.image()
+                Text(LocaleKeys.Login.welcomeBack.rawValue.locale())
+                    .font(.system(size: FontSizes.title1, weight: .semibold))
+                    .foregroundColor(.teflon)
+                HTextIconField(hint: LocaleKeys.General.emailHint.rawValue.locale(), iconName: IconItems.mail,
+                               text: $viewModel.emailValue)
+                HTextSecureIconField(hint: LocaleKeys.General.passwordHint.rawValue.locale(), iconName: IconItems.lock,
+                                     text: $viewModel.passwordValue)
+                    .padding(.top, PagePadding.All.normal.rawValue)
 
-            Divider()
-            NormalButton(onTap: {
-                Task{
-                    await viewModel.onLoginUser()
+                Divider()
+                NavigationLink("", isActive: $viewModel.isLogged) {
+                    Text("HOME_VIEW").navigationBarBackButtonHidden(true)
                 }
-            }, title: LocaleKeys.Login.createAccount.rawValue).padding(.top, PagePadding.All.normal.rawValue)
+                Group {
+                    NormalButton(onTap: {
+                        Task {
+                            await viewModel.onLoginUser()
+                        }
+                    }, title: LocaleKeys.Login.createAccount.rawValue).padding(.top, PagePadding.All.normal.rawValue)
 
-            Text(LocaleKeys.Login.terms.rawValue.locale())
-                .environment(\.openURL, OpenURLAction(handler: { url in
-                    print(url)
-                    return .discarded
-                })).padding(.top, PagePadding.All.normal.rawValue)
-                .font(.system(size: FontSizes.caption1, weight: .regular))
-                .foregroundColor(.gandalf)
-                .tint(.flowerBlue)
-            Spacer()
-        }.padding(.all, PagePadding.All.normal.rawValue)
+                    Text(LocaleKeys.Login.terms.rawValue.locale())
+                        .environment(\.openURL, OpenURLAction(handler: { url in
+                            print(url)
+                            return .discarded
+                        })).padding(.top, PagePadding.All.normal.rawValue)
+                        .font(.system(size: FontSizes.caption1, weight: .regular))
+                        .foregroundColor(.gandalf)
+                        .tint(.flowerBlue)
+                    Spacer()
+                }
+            }.padding(.all, PagePadding.All.normal.rawValue)
+        }.modifier(ViewStatusHiddenModifier())
     }
 }
 

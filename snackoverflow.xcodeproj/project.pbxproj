@@ -42,6 +42,7 @@
 		54A2A831297F6AC5007EF227 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2A830297F6AC5007EF227 /* UserResponse.swift */; };
 		54A2A834297F6CD9007EF227 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 54A2A833297F6CD9007EF227 /* Alamofire */; };
 		54A2A83C297F7010007EF227 /* Snack_Over_FlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2A83B297F7010007EF227 /* Snack_Over_FlowTests.swift */; };
+		54E6AD1629F755CE009BFDE5 /* ViewStatusHiddenModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E6AD1529F755CE009BFDE5 /* ViewStatusHiddenModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		54A2A830297F6AC5007EF227 /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
 		54A2A839297F7010007EF227 /* Snack Over FlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snack Over FlowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54A2A83B297F7010007EF227 /* Snack_Over_FlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snack_Over_FlowTests.swift; sourceTree = "<group>"; };
+		54E6AD1529F755CE009BFDE5 /* ViewStatusHiddenModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStatusHiddenModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				3526FE14291B1A8100028386 /* TextFieldModifier.swift */,
+				54E6AD1529F755CE009BFDE5 /* ViewStatusHiddenModifier.swift */,
 			);
 			path = ViewModifers;
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 				54A22CB329D26EB5001BEAEC /* LoginModel.swift in Sources */,
 				54A2A831297F6AC5007EF227 /* UserResponse.swift in Sources */,
 				35D9DCCD28E3C61B00A4482D /* LocaleKeys.swift in Sources */,
+				54E6AD1629F755CE009BFDE5 /* ViewStatusHiddenModifier.swift in Sources */,
 				3503157E28D29C39002626A4 /* ContentView.swift in Sources */,
 				3503159C28D2A0D3002626A4 /* Colors.swift in Sources */,
 				3526FE12291B162400028386 /* LoginView.swift in Sources */,

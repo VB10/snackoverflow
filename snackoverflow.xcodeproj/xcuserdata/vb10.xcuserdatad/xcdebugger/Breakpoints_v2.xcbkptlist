@@ -39,69 +39,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "475E7CBC-7BD1-4680-8465-7BF21B5C9DD2"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SnackOverFlow/Feature/Authentication/Login/LoginView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "475E7CBC-7BD1-4680-8465-7BF21B5C9DD2 - 11c2b77b7110a1a6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.Text, SwiftUI.Image, SwiftUI.Text, Snack_Over_Flow.HTextIconField, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.tint(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt; in Snack_Over_Flow.LoginView.body.getter : some"
-                  moduleName = "Snack Over Flow"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vb10/Desktop/development/native/snackoverflow/SnackOverFlow/Feature/Authentication/Login/LoginView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "72">
-               </Location>
-               <Location
-                  uuid = "475E7CBC-7BD1-4680-8465-7BF21B5C9DD2 - 4a4176903dcde346"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.Text, SwiftUI.Image, SwiftUI.Text, Snack_Over_Flow.HTextIconField, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.tint(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt; in Snack_Over_Flow.LoginView.body.getter : some"
-                  moduleName = "Snack Over Flow"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vb10/Desktop/development/native/snackoverflow/SnackOverFlow/Feature/Authentication/Login/LoginView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "40">
-               </Location>
-               <Location
-                  uuid = "475E7CBC-7BD1-4680-8465-7BF21B5C9DD2 - f476cdc16b7f7da0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.Text, SwiftUI.Image, SwiftUI.Text, Snack_Over_Flow.HTextIconField, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.tint(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt; in Snack_Over_Flow.LoginView.body.getter : some"
-                  moduleName = "Snack Over Flow"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vb10/Desktop/development/native/snackoverflow/SnackOverFlow/Feature/Authentication/Login/LoginView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "28">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "9F6E7B0F-131D-4BAF-A3FB-7687708311DE"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -109,8 +46,8 @@
             filePath = "SnackOverFlow/Feature/Authentication/Login/LoginViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
             landmarkName = "onLoginUser()"
             landmarkType = "7">
          </BreakpointContent>
@@ -125,10 +62,10 @@
             filePath = "SnackOverFlow/Feature/Authentication/Login/LoginViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "LoginUseCase"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -141,8 +78,8 @@
             filePath = "SnackOverFlow/Feature/Authentication/Login/LoginViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "LoginViewModel"
             landmarkType = "3">
          </BreakpointContent>
