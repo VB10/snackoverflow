@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3E23E7F7-C2E5-47D4-B154-8D37689D4BDA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65A605A2-BB7B-4C75-B730-1BF7A67661B2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Snack Over FlowTests/Snack_Over_FlowTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "testFetchUserAndCheck()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C5675C2-8951-4984-A1D7-183CDAE7BBD4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Snack Over FlowTests/Snack_Over_FlowTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "testFetchUserAndCheck()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F6E7B0F-131D-4BAF-A3FB-7687708311DE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnackOverFlow/Feature/Authentication/Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "onLoginUser()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1DE9F90-0C1D-4D3E-B85E-C3CD1AE12693"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnackOverFlow/Feature/Authentication/Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "LoginUseCase"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "110DB71F-C7A5-4C9D-ACEC-544F7CA8E8EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnackOverFlow/Feature/Authentication/Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "LoginViewModel"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DCA25E62-6A2E-4054-8C71-112CB4194BB9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnackOverFlow/Core/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "post(path:model:type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F6554D2-9712-4768-BB51-19FFE43D8F3B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnackOverFlow/Core/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "post(path:model:type:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8F6554D2-9712-4768-BB51-19FFE43D8F3B - c6b6be29593b164"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Snack_Over_Flow.NetworkManager.post&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable, &#x3c4;_0_1: Swift.Encodable&gt;(path: Snack_Over_Flow.NetworkPath, model: &#x3c4;_0_1, type: &#x3c4;_0_0.Type) async -&gt; Swift.Optional&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "Snack Over Flow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vb10/Desktop/development/native/snackoverflow/SnackOverFlow/Core/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "1512">
+               </Location>
+               <Location
+                  uuid = "8F6554D2-9712-4768-BB51-19FFE43D8F3B - 8fd551f549c13f64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Snack_Over_Flow.NetworkManager.post&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable, &#x3c4;_0_1: Swift.Encodable&gt;(path: Snack_Over_Flow.NetworkPath, model: &#x3c4;_0_1, type: &#x3c4;_0_0.Type) async -&gt; Swift.Optional&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "Snack Over Flow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vb10/Desktop/development/native/snackoverflow/SnackOverFlow/Core/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "8F6554D2-9712-4768-BB51-19FFE43D8F3B - bea18c60157c7366"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Snack_Over_Flow.NetworkManager.post&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable, &#x3c4;_0_1: Swift.Encodable&gt;(path: Snack_Over_Flow.NetworkPath, model: &#x3c4;_0_1, type: &#x3c4;_0_0.Type) async -&gt; Swift.Optional&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "Snack Over Flow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vb10/Desktop/development/native/snackoverflow/SnackOverFlow/Core/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
