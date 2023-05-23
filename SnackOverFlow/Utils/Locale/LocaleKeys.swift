@@ -8,27 +8,34 @@
 import SwiftUI
 
 struct LocaleKeys {
-
     enum Auth: String {
         case facebook = "signInFacebook"
         case google = "signInGoogle"
         case apple = "signInApple"
         case custom = "signupWithEmail"
     }
-    
+
     enum Buttons: String {
-        case getStarted = "getStarted"
+        case getStarted
     }
-    
+
     enum General: String {
         case emailHint = "getStarted"
-        case passwordHint = "passwordHint"
+        case passwordHint
     }
-    
+
     enum Login: String {
-        case welcomeBack = "welcomeBack"
-        case createAccount = "createAccount"
+        case welcomeBack
+        case createAccount
         case terms = "termsAndCondition"
+    }
+
+    enum TabView: String {
+        case home = "tabHome"
+        case market = "tabMarket"
+        case create = "tabCreate"
+        case wishlist = "tabWishlist"
+        case account = "tabAccount"
     }
 }
 
